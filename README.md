@@ -8,3 +8,4 @@ You also need to download this folder with the three files init.
 Once you have downloaded Python, PyCharm and this folder. Open PyCharm and open this folder in PyCharm, it will ask for to open a folder to use the program. 
 You might have to install a plug to work the csv files. Just watch the IDE and it will guide you through, it will tell you in blue up where the files tabs are. 
 You will be able to find everything in your downloads.
+DOWNLOAD ZIP and UNZIP from your computer. push green button that says code.
