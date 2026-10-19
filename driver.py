@@ -283,7 +283,7 @@ class Driver:
         for d in list_of_dicts:
             gas_spent = Decimal(d['Gas_spent'])
             sum_of_gas_spent += gas_spent
-            if self.date_from <= d['Date'] <= self.date_to and d['Fill_up'] != '0':
+            if d['Date'] >= self.date_from and d['Date'] <= self.date_to and d['Fill_up'] != '0':
                 totals_list.append([d['Date'], d['Fill_up']])
                 total = Decimal(d['Fill_up'])
                 sum_of_totals += total
